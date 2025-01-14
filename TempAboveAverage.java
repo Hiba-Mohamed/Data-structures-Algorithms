@@ -26,12 +26,10 @@ public class TempAboveAverage {
                 System.out.println("");
 
         System.out.println("Temperatures above average:");
-        int countAboveAverage = 0;
 
         for (int i = 0; i < lengthOfArray; i++) {
             if (temperatures[i] > averageTemp) {
                 System.out.println("Temperature value #" + (i + 1) + ": " + temperatures[i]);
-                countAboveAverage++;
             }
         }
 
